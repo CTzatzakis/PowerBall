@@ -121,13 +121,13 @@ int main(int argc, const char * argv[])
         cout<<endl;
     }
     //The folling code outputs to the user the number of tickets that won and display the number of losing tickets
-    cout<<"You have "<<winningTickets[0]<<" tickets that is a grand prize winner"<<endl;
-    cout<<"You have "<<winningTickets[1]<<" tickets winning $1,000,000"<<endl;
-    cout<<"You have "<<winningTickets[2]<<" tickets winning $10,000"<<endl;
-    cout<<"You have "<<winningTickets[3] + winningTickets[4]<<" tickets winning $100"<<endl;
-    cout<<"You have "<<winningTickets[5] + winningTickets[6]<<" tickets winning $7"<<endl;
-    cout<<"You have "<<winningTickets[7] + winningTickets[8]<<" tickets winning $4"<<endl;
-    cout<<"You have "<<lost<<" losing tickets"<<endl;
+    cout<<"There are "<<winningTickets[0]<<" grand prize winning tickets"<<endl;
+    cout<<"There are "<<winningTickets[1]<<" tickets winning $1,000,000"<<endl;
+    cout<<"There are "<<winningTickets[2]<<" tickets winning $10,000"<<endl;
+    cout<<"There are "<<winningTickets[3] + winningTickets[4]<<" tickets winning $100"<<endl;
+    cout<<"There are "<<winningTickets[5] + winningTickets[6]<<" tickets winning $7"<<endl;
+    cout<<"There are "<<winningTickets[7] + winningTickets[8]<<" tickets winning $4"<<endl;
+    cout<<"There are "<<lost<<" losing tickets"<<endl;
 
     //The following code outputs how much money you spent and how much money you won
     cout<<"You spent $"<<spending<<endl;
